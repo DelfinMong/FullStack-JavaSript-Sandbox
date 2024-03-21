@@ -16,3 +16,10 @@ console.table({
   name:'brad',
   email:'brad@gmail.com'
 })
+
+// Group console commands
+console.group('simple');
+console.log(x);
+console.error('Alert');
+console.warn('Warning');
+console.groupEnd();
